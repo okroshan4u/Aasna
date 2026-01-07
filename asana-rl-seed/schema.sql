@@ -60,12 +60,13 @@ CREATE TABLE projects (
     team_id TEXT NOT NULL,
     name TEXT NOT NULL,
     project_type TEXT,
-    start_date DATE,
-    end_date DATE,
     status TEXT,
+    start_date DATE,
+    due_date DATE,
     created_at TIMESTAMP,
     FOREIGN KEY (team_id) REFERENCES teams(team_id)
 );
+
 
 -- =========================================================
 -- Sections
