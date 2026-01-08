@@ -236,4 +236,11 @@ SELECT COUNT(*) FROM comments;
 - Subtasks store project_id as a denormalization for RL efficiency
 - All trade-offs are intentional and documented
 ---
+### Intended Use
+This dataset is designed for:
+- Reinforcement learning environment simulation
+- Evaluation of computer-use AI agents
+- Research on task planning and workflow automation
+- Synthetic benchmarking of enterprise productivity tools
+---
 
