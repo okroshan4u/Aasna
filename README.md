@@ -38,3 +38,30 @@ This dataset can be used for testing RL agents in a realistic enterprise collabo
 
 ---
 
+## Repository Structure
+```bash
+asana-rl-seed/
+├── README.md                    # Project documentation
+├── requirements.txt             # Python dependencies
+├── schema.sql                   # SQLite database schema (DDL)
+├── .env.example                 # Example environment configuration
+├── src/
+│   ├── main.py                  # Pipeline orchestration
+│   ├── generators/              # Data generation modules
+│   │   ├── users.py
+│   │   ├── teams.py
+│   │   ├── projects.py
+│   │   ├── sections.py
+│   │   ├── tasks.py
+│   │   ├── subtasks.py
+│   │   ├── comments.py
+│   │   └── tags.py
+│   ├── models/
+│   │   └── config.py            # Central configuration
+│   └── utils/                   # Helper utilities
+├── prompts/                     # Prompt templates (if applicable)
+└── output/
+    └── asana_simulation.sqlite  # Generated SQLite database
+
+```
+---
