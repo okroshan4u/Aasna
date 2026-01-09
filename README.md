@@ -137,7 +137,8 @@ flowchart LR
 - Realistic user assignments  
 - Referential integrity across all entities  
 
-> An **Entity-Relationship Diagram (ERD)** is provided separately in the documentation (generated using [dbdiagram.io](https://dbdiagram.io)).
+## **Entity-Relationship Diagram (ERD)** is provided separately in the documentation (generated using dbdiagram.io) [Database Diagram](https://dbdiagram.io/d/Aasna-db-diagram-2-695ea11b39fa3db27b6105ba)
+.
 
 ---
 
