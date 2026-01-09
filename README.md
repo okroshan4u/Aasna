@@ -22,6 +22,7 @@ This dataset can be used for testing RL agents in a realistic enterprise collabo
 - Rich metadata including comments and collaboration events  
 - Fully reproducible synthetic dataset  
 
+
 ## Getting Started
 
 1. Clone the repository:
@@ -138,7 +139,8 @@ flowchart LR
 - Referential integrity across all entities  
 
 ## **Entity-Relationship Diagram (ERD)** is provided separately in the documentation (generated using dbdiagram.io) [Database Diagram](https://dbdiagram.io/d/Aasna-db-diagram-2-695ea11b39fa3db27b6105ba)
-.
+<img width="1146" height="864" alt="Aasna db diagram 2 (1)" src="https://github.com/user-attachments/assets/0c8a4fb1-3745-45ec-9f7e-60b8fbc4a8f0" />
+
 
 ---
 
