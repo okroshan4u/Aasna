@@ -80,7 +80,55 @@ The database schema models the following core entities:
 - `subtasks`  
 - `comments`  
 - `tags`  
-- `task_tags`  
+- `task_tags`
+
+---
+```mermaid
+flowchart TD
+    A[main.py<br/>Pipeline Orchestrator]
+
+    A --> B[schema.sql<br/>SQLite Schema]
+    B --> C[(asana_simulation.sqlite)]
+
+    A --> D[User Generator]
+    A --> E[Team & Membership Generator]
+    A --> F[Project Generator]
+    A --> G[Section Generator]
+    A --> H[Task Generator]
+    A --> I[Subtask Generator]
+    A --> J[Comment Generator]
+    A --> K[Tag Generator]
+
+    D --> C
+    E --> C
+    F --> C
+    G --> C
+    H --> C
+    I --> C
+    J --> C
+    K --> C
+
+    subgraph Generators
+        D[src/generators/users.py]
+        E[src/generators/teams.py]
+        F[src/generators/projects.py]
+        G[src/generators/sections.py]
+        H[src/generators/tasks.py]
+        I[src/generators/subtasks.py]
+        J[src/generators/comments.py]
+        K[src/generators/tags.py]
+    end
+
+    subgraph Configuration
+        L[models/config.py]
+    end
+
+    L --> A
+```
+
+
+
+---
 
 **Relationships enforce:**
 
