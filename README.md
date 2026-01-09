@@ -84,7 +84,7 @@ The database schema models the following core entities:
 
 ---
 ```mermaid
-flowchart TD
+flowchart LR
     A[main.py<br/>Pipeline Orchestrator]
 
     A --> B[schema.sql<br/>SQLite Schema]
