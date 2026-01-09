@@ -243,4 +243,11 @@ This dataset is designed for:
 - Research on task planning and workflow automation
 - Synthetic benchmarking of enterprise productivity tools
 ---
+## bLicense
+
+This project is provided for evaluation and research purposes only.
+---
+## Author Notes
+
+This repository was created as part of a Research Scientist Internship take-home assignment, with emphasis on realism, methodological rigor, and research-grade documentation.
 
